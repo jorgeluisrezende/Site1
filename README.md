@@ -9,7 +9,7 @@ O controle de tarefas a serem feitas.
 
 ## status do desenvolvimento por icones
 
-:new: Nova funcionalidade
-:up: Atualizalção
-:wrench:Correção de Bugs
-:checkered_flag: Release
+:truck: Nova funcionalidade
+:package: Atualizalção
+:wrench: Correção de Bugs
+:ok_hand: Release
