@@ -25,12 +25,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
-    transition: 1s;
+    transition: .8s;
 }
 
 .show-menu .hamburguer {
     right: 16rem;
-    transition: 1s;
+    transition: .8s;
 }
 
 .line {
@@ -38,7 +38,7 @@
     height: .1rem;
     background-color: #ffffff;
     box-shadow: 0.1rem 0.1rem 1px #000000;
-    transition: transform 1s;
+    transition: transform .8s;
 }
 
 .show-menu #line1 {
@@ -177,6 +177,7 @@ header {
     opacity: 0;
     animation: tagButton 1.1s 0.9s forwards;
     transition: color 1s;
+    outline: none;
 }
 
 .banner button:hover {
@@ -200,7 +201,7 @@ header {
     position: fixed;
     top: 0;
     right: -20rem;
-    transition: all 1s;
+    transition: all .8s;
     z-index: 99;
     
 }
@@ -420,6 +421,7 @@ header {
     border: none;
     box-shadow: 0 .1rem 0.8rem rgba(0, 0, 0, .4);
     cursor: pointer;
+    outline: none;
 }
 
 .card:hover .card-info {
@@ -428,3 +430,24 @@ header {
     visibility: visible;
 }
 
+.sessao-contato {
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-wrapper {
+    width: 60%;
+    height: 30rem;
+    display: flex;
+}
+
+.contato-left {
+    width: 35%;
+    background: url("../img/contato.jpg");
+    background-size: cover;
+
+}
