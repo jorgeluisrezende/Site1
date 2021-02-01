@@ -225,9 +225,34 @@
                             <label for="mensagem" class="field-label">Mensagem</label>
                         </div>
 
-                        <button type="submit">Enviar</button>
+                        <button type="submit" class="btn-submit">Enviar</button>
                     </form>
                 </div>    
+            </div>
+        </section>
+
+        <section class="sessao-ocamento">
+            <div class="orcamento-wrapper">
+                <form>
+                    <label for="quantidade">Quantidade de Páginas</label>
+                    <input type="text" name="quantidade" id="quantidade">
+                    <label for="js">Preciso de uma script</label>
+                    <input type="checkbox" name="js" id="js">
+                    <label>Layout</label>
+                    <div class="group-layout">
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Preciso de um Layout</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um layout</label>
+                        </div>
+                    </div>
+                    <label for="prazo">Prazo</label>
+                    <input type="range" name="prazo" id="prazo">
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </section>
 

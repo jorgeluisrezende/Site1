@@ -431,6 +431,7 @@ header {
 }
 
 .sessao-contato {
+    margin-top: 5rem;
     width: 100%;
     height: 100vh;
     background-color: #272727;
@@ -443,11 +444,87 @@ header {
     width: 60%;
     height: 30rem;
     display: flex;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .6);
 }
 
 .contato-left {
     width: 35%;
-    background: url("../img/contato.jpg");
+    background: linear-gradient(rgba(15,15,15, 0.6), rgba(22,22,22, 0.9)), url("../img/contato.jpg");
     background-size: cover;
-
 }
+
+.contato-right {
+    width: 65%;
+    background-color: #eee;
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+.sessao-contato h1 {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #272727;
+}
+
+.sessao-contato form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group textarea {
+    padding-top: 1rem;
+    max-width: 30rem;
+    max-height: 8rem;
+    min-width: 20rem;
+}
+
+.field {
+    background: transparent;
+    border: none;
+    width: 25rem;
+    font-size: 1.5rem;
+    font-family: var(--font-secondary);
+    border-bottom: 2px dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.field-label {
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.field:focus ~ label {
+    top: 0;
+    font-size: 1.5rem;
+}
+
+.btn-submit {
+    width: 80%;
+    height: 2rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #7639a1);
+    font-family: var(--font-action);
+    font-size: 1.1rem;
+    color: #fff;
+    border: none;
+    margin-top: 1.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
