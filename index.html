@@ -25,7 +25,7 @@
         </div>
 
         <header>
-            <div class="img-wrpper">
+            <div class="img-wrapper">
                 <img src="./img/tudor-baciu-2.jpg" alt="">
             </div>
             
@@ -53,6 +53,7 @@
                 <a href="#"><i class="fab fa-github"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
+			
         </aside>
 
         <section class="sessao-conhecimentos">
@@ -231,14 +232,16 @@
             </div>
         </section>
 
-        <section class="sessao-ocamento">
+        <section class="sessao-orcamento">
             <div class="orcamento-wrapper">
+                <h1>Faça seu orçamento</h1>
+
                 <form>
                     <label for="quantidade">Quantidade de Páginas</label>
-                    <input type="text" name="quantidade" id="quantidade">
+                    <input type="number" min="1" name="quantidade" id="quantidade">
                     <label for="js">Preciso de uma script</label>
                     <input type="checkbox" name="js" id="js">
-                    <label>Layout</label>
+                    <label id="layout">Layout</label>
                     <div class="group-layout">
                         <div>
                             <input type="radio" name="layout" id="layout-sim">
@@ -249,11 +252,13 @@
                             <label for="layout-nao">Já tenho um layout</label>
                         </div>
                     </div>
+
                     <label for="prazo">Prazo</label>
                     <input type="range" name="prazo" id="prazo">
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
+                    <button class="btn-orcamento" type="submit">Enviar</button>
+                
+                </form>        
+            </div>   
         </section>
 
     </div>
