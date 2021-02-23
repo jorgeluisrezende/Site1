@@ -585,6 +585,9 @@ header {
 }
 
 .btn-orcamento {
+    font-family: var(--font-action);
+    font-size: 1rem;
+    color: #fff;
     border-radius: .4rem;
     border: none;
     background: #6a3093;
@@ -612,14 +615,15 @@ header {
     height: 1.3rem;
 }
 
-.sessao-orcamento input[type="radio"] {
-    width: 1.2rem;
-    height: 1.2rem;
+.sessao-orcamento input[id="layout-sim"] {
+    margin-top: 1.2rem;
 }
 
 .sessao-orcamento label[id="layout"] {
     margin-top: 1rem;
 }
+
+/*Footer*/
 
 footer {
     width: 100%;
