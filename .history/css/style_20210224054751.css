@@ -15,7 +15,6 @@
     --font-action: "Mulish", serif;
 }
 
-/*ICONE MENU*/
 .hamburguer {
     width: 2.2rem;
     height: 2.2rem;
@@ -86,8 +85,6 @@
     opacity: 1;
 }
 
-
-/*BANNER*/
 header {
     width: 100%;
     height: 100vh;
@@ -197,8 +194,6 @@ header {
     }
 }
 
-
-/*MENU LATERAL*/
 .sidebar {
     width: 20rem;
     height: 100vh;
@@ -620,14 +615,13 @@ header {
     height: 1.3rem;
 }
 
-.sessao-orcamento label[id="layout"] {
-    margin-top: 1rem;
-}
-
 .sessao-orcamento input[id="layout-sim"] {
     margin-top: 1.2rem;
 }
 
+.sessao-orcamento label[id="layout"] {
+    margin-top: 1rem;
+}
 
 /*Footer*/
 
@@ -678,4 +672,3 @@ footer {
     border-radius: 5rem;
     box-shadow: 0 0.1rem 0.6rem #00000009;
 }
-

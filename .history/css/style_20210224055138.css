@@ -15,7 +15,6 @@
     --font-action: "Mulish", serif;
 }
 
-/*ICONE MENU*/
 .hamburguer {
     width: 2.2rem;
     height: 2.2rem;
@@ -86,8 +85,6 @@
     opacity: 1;
 }
 
-
-/*BANNER*/
 header {
     width: 100%;
     height: 100vh;
@@ -197,8 +194,6 @@ header {
     }
 }
 
-
-/*MENU LATERAL*/
 .sidebar {
     width: 20rem;
     height: 100vh;

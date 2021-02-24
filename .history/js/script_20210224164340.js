@@ -9,15 +9,11 @@ document.querySelector("#quantidade").addEventListener("change", attValue)
 document.querySelector("#js").addEventListener("change", attValue)
 document.querySelector("#layout-sim").addEventListener("change", attValue)
 
-// FUNÇÃO PARA O PRAZO D ENTREGA
 document.querySelector("#prazo").addEventListener("change", function() {
     const prazo = document.querySelector("#prazo").value
     document.querySelector("label[for=prazo]").innerHTML = `Prazo: ${prazo} semana(s)`
     attValue()
 })
-
-
-// FUNÇÃO PARA OS DEMAIS REQUISITOS DE SERVIÇOS DE ORÇAMENTO
 function attValue() {
     const quantidade = document.querySelector("#quantidade").value
     const needJS = document.querySelector("#js").checked
@@ -27,9 +23,8 @@ function attValue() {
     
     if(needJS) {valorTotal *= 1.1}
     if(needLayout) {valorTotal += 500}
-
     let taxaUrgencia = 1 - prazo * 0.1;
-    valorTotal *= 1 + taxaUrgencia;
+    valorTotal += 1 + taxaUrgencia;
 
     document.querySelector("#valorTotal").innerHTML = `R$ ${valorTotal.toFixed(2)}`
     console.log(quantidade)
