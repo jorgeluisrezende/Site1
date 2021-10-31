@@ -5,10 +5,10 @@ Ainda irei alterar algumas coisas.
 
 ## tarefas
 
--> Tornar responsivo :package:
---> Inserir conteúdo real. :package:
----> Mudanças no desine do site. :package:
------> Adicionar um sistema back end, posteriormente. :truck:
+-> Tornar responsivo :package: __
+--> Inserir conteúdo real. :package: __
+---> Mudanças no desine do site. :package: __
+-----> Adicionar um sistema back end, posteriormente. :truck: __
 
 ## status do desenvolvimento por icones
 
