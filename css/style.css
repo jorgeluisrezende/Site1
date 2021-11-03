@@ -600,6 +600,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    opacity: 1;
+    transition: 1s;
+
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
     background: linear-gradient(to left, #a044ff, #6a3093);

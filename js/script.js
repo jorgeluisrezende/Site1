@@ -1,36 +1,24 @@
 let hamburguer = document.querySelector(".hamburguer");
 
-hamburguer.addEventListener("click", function(){
+hamburguer.addEventListener("click", function () {
     document.querySelector(".container").classList.toggle("show-menu");
 })
 
+// Scroll top
+let link_top = document.getElementById('link-topo');
 
-document.querySelector("#quantidade").addEventListener("change", attValue)
-document.querySelector("#js").addEventListener("change", attValue)
-document.querySelector("#layout-sim").addEventListener("change", attValue)
+window.onscroll = function () { btn_scroll_top() };
 
-// FUNÇÃO PARA O PRAZO D ENTREGA
-document.querySelector("#prazo").addEventListener("change", function() {
-    const prazo = document.querySelector("#prazo").value
-    document.querySelector("label[for=prazo]").innerHTML = `Prazo: ${prazo} semana(s)`
-    attValue()
-})
-
-
-// FUNÇÃO PARA OS DEMAIS REQUISITOS DE SERVIÇOS DE ORÇAMENTO
-function attValue() {
-    const quantidade = document.querySelector("#quantidade").value
-    const needJS = document.querySelector("#js").checked
-    const needLayout = document.querySelector("#layout-sim").checked
-    const prazo = document.querySelector("#prazo").value
-    let valorTotal = quantidade * 100;
-    
-    if(needJS) {valorTotal *= 1.1}
-    if(needLayout) {valorTotal += 500}
-
-    let taxaUrgencia = 1 - prazo * 0.1;
-    valorTotal *= 1 + taxaUrgencia;
-
-    document.querySelector("#valorTotal").innerHTML = `R$ ${valorTotal.toFixed(2)}`
-    console.log(quantidade)
+function btn_scroll_top() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        link_top.style.opacity = '1'
+    }
+    else {
+        link_top.style.opacity = '0'
+    }
 }
+
+link_top.addEventListener('click', () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
