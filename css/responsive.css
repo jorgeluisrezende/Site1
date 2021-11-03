@@ -42,8 +42,12 @@
 }
 
 @media(max-width: 720px) {
+    .banner {
+        text-align: center;
+        left: 0;
+    }
     .conhecimento {
-        width: 100%;
+        width: 40%;
         margin: 5px;
         padding: 10px;
     }
@@ -60,7 +64,24 @@
         margin-bottom: 1.5rem;
         margin-top: 2.5rem;
     }
-    .banner {
-        text-align: center;
+    .projetos {
+        display: none;
+    }
+    footer {
+        height: 10rem;
+        width: 100%;
+    }
+    .footer-content {
+        height: 100%;
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    .social-list {
+        display: flex;
+        justify-content: center;
+    }
+    .social-list i {
+        font-size: 2rem;
     }
 }
