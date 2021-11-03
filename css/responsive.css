@@ -1,0 +1,42 @@
+@media(max-width: 1050px) {
+    .sessao-conhecimentos {
+        width: 100%;
+        max-width: 100%;
+        background-color: #f3f3f3;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conhecimentos {
+        width: 90%;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .conhecimento {
+        width: 200px;
+        height: auto;
+        margin: 5px;
+        padding: 10px;
+
+        border: solid 1px;
+    }
+    .conhecimentos-img-wrapper {
+        display: none;
+    }
+    .conhecimento-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conhecimento-header h3 {
+        padding: 0;
+    }
+    .conhecimento-header i {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+}

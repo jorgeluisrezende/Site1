@@ -1,14 +1,14 @@
 # Site1
 
 Estudo básico de front end, apenas uma prática.
-Ainda irei alterar algumas coisas.
+Ainda irei alterar algumas coisas! :ok_hand:
 
 ## tarefas
 
--> Tornar responsivo :package: __
---> Inserir conteúdo real. :package: __
----> Mudanças no desine do site. :package: __
------> Adicionar um sistema back end, posteriormente. :truck: __
+-> Tornar responsivo :package: </br>
+--> Inserir conteúdo real. :package: </br>
+---> Mudanças no desine do site. :package: </br>
+-----> Adicionar um sistema back end, posteriormente. :truck: </br>
 
 ## status do desenvolvimento por icones
 
