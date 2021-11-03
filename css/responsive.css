@@ -40,3 +40,14 @@
         margin-bottom: 10px;
     }
 }
+
+@media(max-width: 720px) {
+    .conhecimento {
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+    }
+    .conhecimento-text p {
+        font-size: 1.8em;
+    }
+}
