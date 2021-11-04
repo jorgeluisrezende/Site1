@@ -1,6 +1,7 @@
 // ========== Menu "hamburguer" ===========
 let hamburguer = document.querySelector(".hamburguer");
 let fecharSideBar = document.querySelector(".fechaMenu");
+
 // ========== Scroll top ===========
 let link_top = document.getElementById('link-topo');
 
@@ -25,7 +26,6 @@ window.onscroll = () => {
         link_top.style.opacity = '0';
     }
 }
-
 link_top.addEventListener('click', () => {
     window.scrollTo({top: 0, behavior: 'smooth'});
 })

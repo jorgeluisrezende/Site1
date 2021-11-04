@@ -58,7 +58,7 @@
   }
   .menu-item {
     margin-bottom: 2.5rem;
- }
+  }
   .social-media i {
     height: 3.3rem;
     width: 3.3rem;
@@ -85,9 +85,31 @@
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
   }
+
   .projetos {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+  .card {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 25px;
+  }
+  .card-img-wrapper {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-info {
+    top: 30px;
+  }
+  .card:hover .card-info {
+    top: 0;
+  }
+
+
   footer {
     height: 10rem;
     width: 100%;
