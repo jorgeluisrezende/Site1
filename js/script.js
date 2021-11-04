@@ -16,7 +16,7 @@ window.onscroll = () => {
         link_top.style.opacity = '.8';
     }
     else {
-        link_top.style.opacity = '0'
+        link_top.style.opacity = '0';
     }
 }
 
