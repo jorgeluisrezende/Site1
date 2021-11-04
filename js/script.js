@@ -1,17 +1,19 @@
+// ========== Menu "hamburguer" ===========
 let hamburguer = document.querySelector(".hamburguer");
+// ========== Scroll top ===========
+let link_top = document.getElementById('link-topo');
 
+
+
+// ========== Menu "hamburguer" ===========
 hamburguer.addEventListener("click", function () {
     document.querySelector(".container").classList.toggle("show-menu");
 })
 
-// Scroll top
-let link_top = document.getElementById('link-topo');
-
-window.onscroll = function () { btn_scroll_top() };
-
-function btn_scroll_top() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        link_top.style.opacity = '1'
+// ========== Scroll top ===========
+window.onscroll = () => {
+    if (document.body.scrollTop !=0 || document.documentElement.scrollTop != 0) {
+        link_top.style.opacity = '.8';
     }
     else {
         link_top.style.opacity = '0'
@@ -19,6 +21,5 @@ function btn_scroll_top() {
 }
 
 link_top.addEventListener('click', () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    window.scrollTo({top: 0, behavior: 'smooth'});
 })

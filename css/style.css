@@ -9,6 +9,9 @@
     outline: none;
     border: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 :root {
     --font-primary: "Baloo Da 2", serif;
@@ -601,8 +604,8 @@ footer {
     justify-content: center;
     align-items: center;
 
-    opacity: 1;
-    transition: 1s;
+    opacity: 0;
+    transition: .7s;
 
     background: #6a3093;
     background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
