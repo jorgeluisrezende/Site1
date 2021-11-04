@@ -579,8 +579,15 @@ header {
 }
 
 
-/*Footer*/
+/*=======  back-end projetos   */
+.sessao_backend {
+    width: 100%;
+    height: 100vh;
 
+    text-align: center;
+}
+
+/*Footer*/
 footer {
     width: 100%;
     height: 7rem;

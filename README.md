@@ -7,7 +7,7 @@ Ainda irei alterar algumas coisas! :ok_hand:
 
 -> Tornar responsivo :package: </br>
 --> Inserir conteúdo real. :package: </br>
----> Mudanças no desine do site. :package: </br>
+---> Mudanças no designe do site. :package: </br>
 -----> Adicionar um sistema back end, posteriormente. :truck: </br>
 
 ## status do desenvolvimento por icones
