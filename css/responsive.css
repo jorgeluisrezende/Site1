@@ -41,7 +41,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px) and (max-height: 1560px) {
   .banner {
     text-align: center;
     left: 0;
@@ -54,10 +54,10 @@
     justify-content: space-evenly;
   }
   .menu {
-    top: 0;
+    bottom: 70%;
   }
   .menu-item {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
   .social-media i {
     height: 3.3rem;
