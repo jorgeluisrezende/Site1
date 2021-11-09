@@ -131,18 +131,21 @@
     margin-bottom: 25px;
   }
   #soloCard1 {
+    animation-play-state: paused;
     animation-name: card_animation;
     animation-duration: 1s;
     animation-iteration-count: unset;
   }
   #soloCard2 {
+    animation-play-state: paused;
     animation-name: card_animation;
-    animation-duration: 2s;
+    animation-duration: 1.80s;
     animation-iteration-count: unset;
   }
   #soloCard3 {
+    animation-play-state: paused;
     animation-name: card_animation;
-    animation-duration: 3s;
+    animation-duration: 2.80s;
     animation-iteration-count: unset;
   }
   @keyframes card_animation {

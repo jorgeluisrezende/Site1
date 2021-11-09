@@ -14,17 +14,20 @@ fecharSideBar.addEventListener("click", function () {
 
 // ========== botão para exibir div de projetos ===========
 let div_projetos_hidden = document.querySelector('.projetos_hidden');
-let Hidden_cards = document.querySelectorAll('.hidden_cards');
+let animation_cards = document.querySelectorAll('.hidden_cards');
 let btn_open_div = document.querySelector('.btn_open');
 
 btn_open_div.addEventListener('click', () => {
-    if(div_projetos_hidden.style.display == 'none') {
+    if(div_projetos_hidden.style.display != 'flex') {
         div_projetos_hidden.style.display = 'flex';
-    } else {
-        div_projetos_hidden.style.display = 'none';
-        Hidden_cards.forEach(card => {
-            
+        animation_cards.forEach(card => {
+            card.style.animationPlayState = 'running';
         })
+        btn_open_div.innerHTML = 'fechar';
+    }
+    else {
+        div_projetos_hidden.style.display = 'none';
+        btn_open_div.innerHTML = 'mais';
     }
 })
 
