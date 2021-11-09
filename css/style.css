@@ -462,7 +462,7 @@ header {
     visibility: visible;
 }
 .projetos_hidden {
-
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
