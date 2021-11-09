@@ -336,8 +336,18 @@ header {
 
 .sessao-conhecimentos {
     background-color: #f3f3f3;
+    width: 100%;
+    height: auto;
 }
 
+.sessao-projetos {
+    width: 100%;
+    height: auto;
+}
+.sessao-header {
+    width: 100%;
+    height: auto;
+}
 .sessao-header h1 {
     font-family: var(--font-primary);
     font-size: 3rem;
