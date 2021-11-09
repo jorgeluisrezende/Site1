@@ -128,9 +128,6 @@
   }
   .hidden_cards{
     position: relative;
-
-    width: 90%;
-    height: 300px;
     margin-bottom: 25px;
   }
   #soloCard1 {
