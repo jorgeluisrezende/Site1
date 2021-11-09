@@ -97,11 +97,6 @@
     height: 300px;
     margin-bottom: 25px;
   }
-  .card-img-wrapper {
-    max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
   .card-info {
     top: 30px;
     padding: 1.2rem;
