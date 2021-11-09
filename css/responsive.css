@@ -117,6 +117,15 @@
     top: 0;
   }
 
+  .projetos_hidden {
+    display: none;
+    width: 100%;
+    height: auto;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .hidden_cards{
     position: relative;
 
@@ -140,8 +149,8 @@
     animation-iteration-count: unset;
   }
   @keyframes card_animation {
-      from {right: 25rem; opacity: 0;}
-      to {right: 0rem; opacity: 1;}
+    from {right: 25rem; opacity: 0;}
+    to {right: 0rem; opacity: 1;}
   }
 
   .btn_open {

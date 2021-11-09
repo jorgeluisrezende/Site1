@@ -461,13 +461,6 @@ header {
     opacity: 1;
     visibility: visible;
 }
-.projetos_hidden {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /* -======= sessão CONTATOS  */
 .sessao-contato {
