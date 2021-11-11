@@ -32,7 +32,7 @@ btn_open_div.addEventListener('click', () => {
 })
 
 
-// ========== Scroll top ===========
+// ==========  Scroll top ===========
 let link_top = document.getElementById('link-topo');
 
 window.onscroll = () => {
