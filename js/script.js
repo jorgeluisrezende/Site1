@@ -12,7 +12,7 @@ fecharSideBar.addEventListener("click", function () {
 })
 
 
-// ========== botão para exibir div de projetos ===========
+// ========== botão para exibir div de projetos FrontEND ===========
 let div_projetos_hidden = document.querySelector('.projetos_hidden');
 let animation_cards = document.querySelectorAll('.hidden_cards');
 let btn_open_div = document.querySelector('.btn_open');
@@ -30,6 +30,30 @@ btn_open_div.addEventListener('click', () => {
         btn_open_div.innerHTML = 'mais';
     }
 })
+
+
+
+// ========== botão para exibir div de projetos BackEND ===========
+const slides = document.querySelectorAll('[data-js="box_slide_container"]');
+const btnPrev = document.querySelector('.btnPrev');
+const btnNext = document.querySelector('.btnNext');
+
+let = CurrentSlideIndex = 0;
+
+btnNext.addEventListener('click', () => {
+    if(CurrentSlideIndex === slides.lenght -1) {
+        CurrentSlideIndex = 0;
+    }
+    else {
+        CurrentSlideIndex++
+    }
+    slides.forEach(slide => {
+        slide.classList.remove('active');
+    })
+
+    slides[CurrentSlideIndex].classList.add('active');
+})
+
 
 
 // ==========  Scroll top ===========
